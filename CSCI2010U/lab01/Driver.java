@@ -12,6 +12,6 @@ public class Driver
 
         // print output and do calculations 
         System.out.printf("%.1f + %.1f = %.1f\n", x, y, c.add(x, y));
-        System.out.printf("%.1f * %.1f = %.1f", x, y, c.multiply(x, y));
+        System.out.printf("%.1f * %.1f = %.1f\n", x, y, c.multiply(x, y));
     }
 }
