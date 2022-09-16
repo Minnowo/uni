@@ -1,5 +1,5 @@
 
-public class Shape 
+public abstract class Shape 
 {
     double height;
     double width;
@@ -18,10 +18,8 @@ public class Shape
         this.name = name;
     }
 
-    double calcArea()
-    {
-        return this.width * this.height;
-    }
+    // abstract function must be in abstract class 
+    abstract double calcArea();
 
     public String toString()
     {
