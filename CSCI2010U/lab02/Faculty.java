@@ -16,6 +16,6 @@ public class Faculty extends Person
     // override toString
     public String toString()
     {
-        return super.toString() + ", Rank: " + this.rank;
+        return super.toString() + " Rank: " + this.rank;
     }
 }

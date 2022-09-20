@@ -21,6 +21,6 @@ public class Person
     // override toString
     public String toString()
     {
-        return "Name: " + this.name + ", Address: " + this.address + ", PhoneNUmber: " + this.phoneNumber + ", Email: " + this.email;
+        return "Name: " + this.name + " Address: " + this.address + " PhoneNUmber: " + this.phoneNumber + " Email: " + this.email;
     }
 }

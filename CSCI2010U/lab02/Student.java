@@ -17,6 +17,6 @@ public class Student extends Person
     // override toString
     public String toString()
     {
-        return super.toString() + ", Status: " + this.status;
+        return super.toString() + " Status: " + this.status;
     }
 }
