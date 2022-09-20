@@ -3,33 +3,40 @@ public class Driver
 {
     public static void getCount(Person[] persons )
     {
+        // init counter variables 
         int studentCount = 0;
         int facultyCount = 0;
+
+        // loop through each person given
         for(Person p : persons )
         {
+            // check class type 
             if(p.getClass() == Student.class)
             {
                 studentCount++;
-                continue;
             }
-            if(p.getClass() == Faculty.class)
+            else if(p.getClass() == Faculty.class)
             {
                 facultyCount++;
             }
         }
 
+        // display count
         System.out.printf("Student Count: %d\nFaculty Count: %d", studentCount, facultyCount);
     }
 
     public static void display(Person[] persons)
     {
+        // loop through each person given
         for(Person p : persons)
         {
+            // print the person
             System.out.println(p);
         }
     }
     public static void main(String[] args)
     {
+        // define people array
         Person persons[] = new Person[]{
             new Student("Steve Jobs", "71 Simcoe Road", "111-111-1111", "steve@uoit.ca", "Freshman"),
             new Student("BilL Gates", "100 College Creek", "111-121-1221", "bill@uoit.ca", "Sophomore"),
@@ -47,6 +54,8 @@ public class Driver
             new Faculty("Lizzy King", "881 Wilson Street", "777-666-0000", "lizzy@uoit.ca", "Associate Professor"),
             new Faculty("Paula James", "101 Golden Road", "777-111-2000", "paula@uoit.ca", "Professor")
         };
+
+        // show results 
         display(persons);
         getCount(persons);
     }
