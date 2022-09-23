@@ -20,7 +20,7 @@ public class Driver
                 facultyCount++;
             }
         }
-
+        
         // display count
         System.out.printf("Student Count: %d\nFaculty Count: %d", studentCount, facultyCount);
     }
