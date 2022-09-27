@@ -34,7 +34,7 @@ for i in data.split("\n"):
         if j == "S":
             t *= 0.4
 
-    print(i, t)
+    print(i.count("S"), i, t)
     if "".join(sorted(i)) not in nyah:
         nyah["".join(sorted(i))] = [] 
 
@@ -45,4 +45,4 @@ print()
 print("distribution")
 
 for i, k in nyah.items():
-    print(i, sum(k)*100)
+    print(k.count("S"),i, sum(k)*100)
