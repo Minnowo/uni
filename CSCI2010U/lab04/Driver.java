@@ -1,3 +1,5 @@
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashSet;
 
 public class Driver
@@ -33,6 +35,21 @@ public class Driver
 
         // runtime = O(n)
         return s.size() == arr.length;
+    }
+
+    public static void looptest()
+    {
+        int n = 10;
+
+        for(int i = 0; i < n; i++)
+        {
+                System.out.print(0);
+
+            for(int k = i + 1; k <n; k++)
+            {
+                System.out.print(1);
+            }
+        }
     }
 
     public static boolean contains_duplicates_better2(int[] arr)
