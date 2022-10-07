@@ -9,4 +9,9 @@ public class Student
         this.name = name;
         this.age = age;
     }
+
+    public String toString()
+    {
+        return "Name: " + this.name + " age: " + this.age;
+    }
 }
