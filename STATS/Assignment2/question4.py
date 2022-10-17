@@ -66,5 +66,8 @@ print(f"d) IQR {abs(get_q1(data) - get_q3(data))}")
 print(f"e) Mild {mild_out_coutn(data)}")
 print(f"f) IQR  {extreme_out_coutn(data)}")
 
-
+print(data)
+print(len(data))
+print(list(range(len(data))))
+[3, 5, 18, 19, 19, 19, 20, 21, 22, 22, 22, 22, 22, 23, 24, 25, 26, 27, 28, 29, 30, 33, 37, 38, 38, 38, 38, 39, 39, 39, 40]
 
