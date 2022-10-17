@@ -1,0 +1,50 @@
+[
+    {
+        "id": "f68679c0",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "check 1",
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "*\n**\n***\n****\n*****\n******\n*******\n********\n*********\n**********",
+        "type": "stdout"
+    },
+    {
+        "id": "3c2fc0fb",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "height=0",
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "",
+        "type": "empty"
+    },
+    {
+        "id": "b0f598d2",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "no parameter",
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "<class 'Exception'>\n('Height is negative.', -5)",
+        "type": "stdout"
+    }
+]
