@@ -16,7 +16,6 @@ f = \c. \n. (
     (((pred (pred n)) update init) false )
 )
 
-
 \c. \n. ( iszero (pred (pred n)) (mult 3 c) (((pred (pred n)) update init) false ) )
 
 
