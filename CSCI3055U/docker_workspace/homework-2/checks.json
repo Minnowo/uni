@@ -1,0 +1,114 @@
+[
+    {
+        "id": "58285b97",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": null,
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "true",
+        "type": "execute_result"
+    },
+    {
+        "id": "a1ea1e30",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": null,
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "3",
+        "type": "execute_result"
+    },
+    {
+        "id": "241e6689",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": null,
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "true",
+        "type": "execute_result"
+    },
+    {
+        "id": "cfac7ed7",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": null,
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "true",
+        "type": "execute_result"
+    },
+    {
+        "id": "276d6bf6",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": null,
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "100",
+        "type": "execute_result"
+    },
+    {
+        "id": "b8d2e75a",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": null,
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "330",
+        "type": "execute_result"
+    },
+    {
+        "id": "24fb1ed2",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": null,
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "0",
+        "type": "execute_result"
+    }
+]

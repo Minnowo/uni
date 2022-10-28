@@ -50,6 +50,7 @@ public class LinkedList
         {
             Node n = head.next;
             head.next = head.next.next;
+            n.next = null;
             return n;
         }
 
