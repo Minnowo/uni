@@ -1,13 +1,13 @@
 [
     {
-        "id": "58285b97",
+        "id": "0693c957",
         "directives": {
             "solution": null,
             "masterOnly": null,
             "workUnit": null,
             "check": true,
             "test": null,
-            "title": null,
+            "title": "check1",
             "grade": 1.0,
             "match": null,
             "normalize": null
@@ -16,14 +16,14 @@
         "type": "execute_result"
     },
     {
-        "id": "a1ea1e30",
+        "id": "52b5536d",
         "directives": {
             "solution": null,
             "masterOnly": null,
             "workUnit": null,
             "check": true,
             "test": null,
-            "title": null,
+            "title": "check2",
             "grade": 1.0,
             "match": null,
             "normalize": null
@@ -32,14 +32,14 @@
         "type": "execute_result"
     },
     {
-        "id": "241e6689",
+        "id": "df88cd17",
         "directives": {
             "solution": null,
             "masterOnly": null,
             "workUnit": null,
             "check": true,
             "test": null,
-            "title": null,
+            "title": "check3",
             "grade": 1.0,
             "match": null,
             "normalize": null
@@ -48,14 +48,14 @@
         "type": "execute_result"
     },
     {
-        "id": "cfac7ed7",
+        "id": "46ce50b6",
         "directives": {
             "solution": null,
             "masterOnly": null,
             "workUnit": null,
             "check": true,
             "test": null,
-            "title": null,
+            "title": "check4",
             "grade": 1.0,
             "match": null,
             "normalize": null
@@ -64,14 +64,14 @@
         "type": "execute_result"
     },
     {
-        "id": "276d6bf6",
+        "id": "0b25bd05",
         "directives": {
             "solution": null,
             "masterOnly": null,
             "workUnit": null,
             "check": true,
             "test": null,
-            "title": null,
+            "title": "check5",
             "grade": 1.0,
             "match": null,
             "normalize": null
@@ -80,14 +80,14 @@
         "type": "execute_result"
     },
     {
-        "id": "b8d2e75a",
+        "id": "5992c3a0",
         "directives": {
             "solution": null,
             "masterOnly": null,
             "workUnit": null,
             "check": true,
             "test": null,
-            "title": null,
+            "title": "check6",
             "grade": 1.0,
             "match": null,
             "normalize": null
@@ -96,14 +96,14 @@
         "type": "execute_result"
     },
     {
-        "id": "24fb1ed2",
+        "id": "1f7f2e1f",
         "directives": {
             "solution": null,
             "masterOnly": null,
             "workUnit": null,
             "check": true,
             "test": null,
-            "title": null,
+            "title": "check7",
             "grade": 1.0,
             "match": null,
             "normalize": null

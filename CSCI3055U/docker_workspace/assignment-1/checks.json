@@ -1,0 +1,226 @@
+[
+    {
+        "id": "19d9419d",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "total articles",
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "4",
+        "type": "execute_result"
+    },
+    {
+        "id": "5dfcfcc3",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "total likes",
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "18",
+        "type": "execute_result"
+    },
+    {
+        "id": "e7d7ab88",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "check author id 100",
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "true",
+        "type": "execute_result"
+    },
+    {
+        "id": "b84924f2",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": null,
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "false",
+        "type": "execute_result"
+    },
+    {
+        "id": "a4689c2d",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "author-by-id 100",
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "({:id 100, :name \"Albert Einstein\", :interest \"Physics\"})",
+        "type": "execute_result"
+    },
+    {
+        "id": "d6db04f6",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "author-by-id 200",
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "({:id 200, :name \"Alan Turing\", :interest \"Computer Science\"})",
+        "type": "execute_result"
+    },
+    {
+        "id": "e056ca2a",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "author-by-id 500",
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "()",
+        "type": "execute_result"
+    },
+    {
+        "id": "5c2ac0a1",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "id->name 100",
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "\"Albert Einstein\"",
+        "type": "execute_result"
+    },
+    {
+        "id": "7add8ad4",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "id->name 200",
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "\"Alan Turing\"",
+        "type": "execute_result"
+    },
+    {
+        "id": "1cf31e02",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "id->name 500",
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "nil",
+        "type": "execute_result"
+    },
+    {
+        "id": "93c31a93",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "resolve-ids check-1",
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "(\"Albert Einstein\" \"Alan Turing\")",
+        "type": "execute_result"
+    },
+    {
+        "id": "5732978e",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "resolve-ids check-2",
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "(\"Alan Turing\" \"Jeff Dean\" nil)",
+        "type": "execute_result"
+    },
+    {
+        "id": "a06f5e96",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "resolve-article",
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "{:title \"Intro to science\",\n :authors (\"Albert Einstein\" \"Alan Turing\"),\n :likes 3}\n{:title \"Programming machines\",\n :authors (\"Alan Turing\" \"Jeff Dean\"),\n :likes 5}",
+        "type": "stdout"
+    },
+    {
+        "id": "8e665483",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "articles-with-names",
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "({:title \"Intro to science\",\n  :authors (\"Albert Einstein\" \"Alan Turing\"),\n  :likes 3}\n {:title \"Programming machines\",\n  :authors (\"Alan Turing\" \"Jeff Dean\"),\n  :likes 5}\n {:title \"The digital age\", :authors (\"Jeff Dean\"), :likes 6}\n {:title \"Quantum computing\",\n  :authors (\"Jeff Dean\" \"Albert Einstein\"),\n  :likes 4})",
+        "type": "stdout"
+    }
+]
