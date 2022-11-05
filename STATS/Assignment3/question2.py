@@ -23,6 +23,11 @@ avg_x = x / n
 a = avg_y - b*avg_x
 
 print(f"a. line = {a} + {b} X")
+print(f"a. sxx {sxx}")
+print(f"a. syy {syy}")
+print(f"a. sxy {sxy}")
 
-
-print(f"b. line = {a} + {b} X")
+b_celc = b * (9/5)
+a_celc = a + (32 * b)
+print(f"c. line = {a_celc} {b_celc} X")
+print(f"d. {b_celc * 5}")

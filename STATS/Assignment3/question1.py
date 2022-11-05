@@ -36,16 +36,24 @@ b = get_b(data)
 r = get_r(data)
 
 print(f"b. pearsons coef r = {r}")
+print(f"b. sxx {get_sxx(data)}")
+print(f"b. syy {get_syy(data)}")
+print(f"b. sxy {get_sxy(data)}")
+
 print(f"c. least squares regression line: y = {round(a, 4)} + {round(b, 4)} X")
 print(f"d. the y-intercept is the amount of mail, so when there is 0 weight about 0 mail")
 
 prediction_1 = a + b*315
 prediction_2 = a + b*680
 print(f"e. weight=315 = {prediction_1}, weight=680 = {prediction_2}")
-
-import matplotlib.pyplot as mpl
+print(f"f. r^2 = {math.pow(r, 2)}")
+prediction_3 = a + b*500
+print(f"h. at 500  {prediction_3}")
 
 res = get_residuals(data)
+print(f"residual at 216 {round(res[216], 4)}")
+print(f"residual at 432 {round(res[432], 4)}")
+import matplotlib.pyplot as mpl
 mpl.scatter(list(data.keys()), list(data.values()), color="red", label='data')
 mpl.scatter(list(res.keys()), list(res.values()), color="blue", label='residuals')
 mpl.ylabel("orders")
