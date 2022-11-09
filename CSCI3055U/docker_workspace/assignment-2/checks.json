@@ -1,0 +1,98 @@
+[
+    {
+        "id": "ea615be6",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "first three lines",
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "Total lines: 10128\n(\"716506083,\\\"Attrited Customer\\\",44,\\\"F\\\",1,\\\"High School\\\",\\\"Married\\\",\\\"Less than $40K\\\",\\\"Blue\\\",36,5,3,4,5409,0,5409,0.819,10291,60,0.818,0,0.99788,0.00211827\"\n \"717406983,\\\"Attrited Customer\\\",30,\\\"M\\\",2,\\\"Graduate\\\",\\\"Unknown\\\",\\\"$40K - $60K\\\",\\\"Blue\\\",36,4,3,3,5281,0,5281,0.535,8395,62,0.722,0,0.99671,0.00329379\"\n \"714337233,\\\"Attrited Customer\\\",43,\\\"F\\\",2,\\\"Graduate\\\",\\\"Married\\\",\\\"Less than $40K\\\",\\\"Silver\\\",25,6,2,4,10388,1961,8427,0.703,10294,61,0.649,0.189,0.99662,0.00337654\")",
+        "type": "stdout"
+    },
+    {
+        "id": "167f6cf0",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "parse-value int",
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "{\"100\" 100, \"3.1415\" 3.1415, \"10e3\" 10000.0, \"hello\" \"hello\"}",
+        "type": "execute_result"
+    },
+    {
+        "id": "147815e5",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "parse first line",
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "[\"CLIENTNUM\"\n \"Attrition_Flag\"\n \"Customer_Age\"\n \"Gender\"\n \"Dependent_count\"\n \"Education_Level\"\n \"Marital_Status\"\n \"Income_Category\"\n \"Card_Category\"\n \"Months_on_book\"\n \"Total_Relationship_Count\"\n \"Months_Inactive_12_mon\"\n \"Contacts_Count_12_mon\"\n \"Credit_Limit\"\n \"Total_Revolving_Bal\"\n \"Avg_Open_To_Buy\"\n \"Total_Amt_Chng_Q4_Q1\"\n \"Total_Trans_Amt\"\n \"Total_Trans_Ct\"\n \"Total_Ct_Chng_Q4_Q1\"\n \"Avg_Utilization_Ratio\"\n \"Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1\"\n \"Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2\"]",
+        "type": "stdout"
+    },
+    {
+        "id": "228aab98",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "parse last line",
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "[714337233\n \"Attrited Customer\"\n 43\n \"F\"\n 2\n \"Graduate\"\n \"Married\"\n \"Less than $40K\"\n \"Silver\"\n 25\n 6\n 2\n 4\n 10388\n 1961\n 8427\n 0.703\n 10294\n 61\n 0.649\n 0.189\n 0.99662\n 0.00337654]",
+        "type": "stdout"
+    },
+    {
+        "id": "ba48aa3f",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "make-record of last line",
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "{:age 43,\n :amount 10294,\n :attrition \"Attrited Customer\",\n :balance 1961,\n :card \"Silver\",\n :change 0.703,\n :change2 0.649,\n :contacts 4,\n :count 61,\n :dependents 2,\n :education \"Graduate\",\n :gender \"F\",\n :id 714337233,\n :inactive 2,\n :income \"Less than $40K\",\n :limit 10388,\n :marital \"Married\",\n :months 25,\n :open 8427,\n :ratio 0.189,\n :rel-count 6}",
+        "type": "stdout"
+    },
+    {
+        "id": "85212af7",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "show data analysis result",
+            "grade": 5.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "{\"F\" {:count 5358, :limit 26917811, :mean 5024},\n \"M\" {:count 4769, :limit 60497984, :mean 12686}}",
+        "type": "stdout"
+    }
+]
