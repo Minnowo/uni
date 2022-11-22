@@ -35,6 +35,7 @@ public class AVL
         return node.height;
     }
 
+
     public int getParentHeight(Node node)
     {
         if(node == null)
