@@ -144,25 +144,25 @@ public class Driver
             }
         }
 
-        public void insertionRecur2(int value)
+        public void insertRecur2(int value)
         {
-            root = insertNode_recursion(root, value);
+            root = insertRecur2(root, value);
         }
 
-        private Node insertionRecur2(Node root, int value)
+        private Node insertRecur2(Node root, int value)
         {
             if (root == null)
             {
                 root = new Node(value);
                 return root;
             }
-            else if (value < root.value)
+            else if (value < root.data)
             {
-                root.left = insertionRecur2(root.left, value);
+                root.left = insertRecur2(root.left, value);
             }
             else
             {
-                root.right = insertionRecur2(root.right, value);
+                root.right = insertRecur2(root.right, value);
             }
             return root;
         }
