@@ -29,38 +29,9 @@ public class AVL {
     // using a stack
     public void insert2(int value)
     {
-<<<<<<< HEAD
-        if(node == null)
-            return 0;
-
-        return node.height;
-    }
-
-
-    public int getParentHeight(Node node)
-    {
-        if(node == null)
-            return 0;
-
-        return getMax(getHeight(node.right), getHeight(node.left)) + 1;
-    }
-
-    public int getBalanceFactor(Node node)
-    {
-        if(node == null)
-            return 0;
-
-        return getHeight(node.left) - getHeight(node.right);
-    }
-
-    public void preOrder(Node n)
-    {
-        if(n == null)
-=======
         if(this.root == null)
         {
             this.root = new Node(value);
->>>>>>> 780d9828099e26e97bd3fa5a297b747909f1ff6c
             return;
         }
 
