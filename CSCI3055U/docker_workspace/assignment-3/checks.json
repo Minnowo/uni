@@ -1,0 +1,82 @@
+[
+    {
+        "id": "af09b181",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "check patchString",
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "3.1415\n| 3.1415\n| | 3.1415",
+        "type": "stdout"
+    },
+    {
+        "id": "366938bf",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "constructors",
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "Hello",
+        "type": "stdout"
+    },
+    {
+        "id": "70273def",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "constructors with chidren",
+            "grade": 1.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "1234.0 (2)",
+        "type": "execute_result"
+    },
+    {
+        "id": "5e7453b6",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "nested construction",
+            "grade": 2.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "C:\\ (2)\nPhotos (2)\nDocuments (1)",
+        "type": "stdout"
+    },
+    {
+        "id": "e4cdb1bd",
+        "directives": {
+            "solution": null,
+            "masterOnly": null,
+            "workUnit": null,
+            "check": true,
+            "test": null,
+            "title": "printTree",
+            "grade": 5.0,
+            "match": null,
+            "normalize": null
+        },
+        "text": "C:\\\n| Photos\n| | happy.jpg\n| | sad.jpg\n| Documents\n| | assignment-3\n| | | 1\n| | | 2\n| | | 3",
+        "type": "stdout"
+    }
+]
