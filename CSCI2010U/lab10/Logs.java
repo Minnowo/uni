@@ -1,10 +1,12 @@
 
 public class Logs 
 {
+    // declare members 
     String username;
     String task;
     int year;
     
+    // parameterized constructor 
     public Logs(String username, String task, int year)
     {
         this.username = username;
@@ -12,6 +14,7 @@ public class Logs
         this.year = year;
     }
 
+    // tostring
     public String toString()
     {
         return this.username + ", " + this.task + ", " + this.year;
