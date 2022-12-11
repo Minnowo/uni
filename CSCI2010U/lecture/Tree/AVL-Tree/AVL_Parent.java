@@ -25,18 +25,20 @@ public class AVL_Parent
     {
         AVL_Parent p = new AVL_Parent();
         
-        p.insert(5);
         p.insert(2);
+        p.insert(3);
         p.insert(1);
         p.insert(7);
-        p.insert(21);
+        p.insert(5);
         p.insert(4);
-        p.insert(23);
+        p.insert(6);
+        p.insert(10);
+        p.insert(9);
+        p.insert(8);
 
         p.inOrder();
-        p.delete(5);
-        p.delete(1);
-        p.delete(21);
+        p.delete(4);
+        p.delete(7);
         p.inOrder();
     }
 
