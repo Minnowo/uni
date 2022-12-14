@@ -20,3 +20,8 @@ f = \c. \n. (
 
 
 \c. \n. ( ( (pred (pred n)) update init ) false)
+
+
+
+add = \x. \y. ( x succ y )
+sub = \x. \y. ( x pred y )
